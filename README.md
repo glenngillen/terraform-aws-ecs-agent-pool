@@ -19,7 +19,7 @@ _already_ has the TFC agent installed and starting on boot.
 
 ```hcl
 module "agents" {
-  source            = "glenngillen/aws-ecs-agent-pool/module"
+  source            = "glenngillen/ecs-agent-pool/module"
   version           = "1.0.0"
 
   org_name          = "acme-org"
